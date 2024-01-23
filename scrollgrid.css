@@ -17,7 +17,7 @@ body{
 nav{
     background: darkblue;
     grid-area: nav;
-    color: white;
+    color: red;
 }
 .sidebar{
     background: lightgreen;
