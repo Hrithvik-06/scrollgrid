@@ -29,7 +29,7 @@ nav{
 }
 
 footer{
-    background: darkblue;
+    background: navyblue;
     grid-area: footer;
     color: white;
 }
