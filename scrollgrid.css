@@ -29,7 +29,11 @@ nav{
 }
 
 footer{
+<<<<<<< HEAD
     background: navy;
+=======
+    background: darkblue;
+>>>>>>> 9e1b0eb6f7db8f9ac256b39e639c112f483ad4dd
     grid-area: footer;
     color: white;
 }
