@@ -20,7 +20,7 @@ nav{
     color: white;
 }
 .sidebar{
-    background: lightgreen;
+    background: lawngreeng;
     grid-area: sidebar;
 }
 
