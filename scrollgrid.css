@@ -20,7 +20,11 @@ nav{
     color: white;
 }
 .sidebar{
+<<<<<<< HEAD
     background: lawngreengi;
+=======
+    background: lawngreen;
+>>>>>>> bcc252a25d510939d5cfe21ac2ec2c08a8f2ddb1
     grid-area: sidebar;
 }
 
