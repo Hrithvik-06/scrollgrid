@@ -10,10 +10,10 @@ body{
     grid-template-rows: 1fr 2fr 2fr 2fr 2fr 1fr;
     grid-template-areas:
             "nav nav"
-            "sidebar1 scroll"
-            "sidebar1 scroll"
-            "sidebar3 scroll"
-            "sidebar4 scroll"
+            "sidebar1 main1"
+            "sidebar1 main1"
+            "sidebar3 main1"
+            "sidebar4 main1"
             "footer footer";
 }
 nav{
@@ -64,14 +64,228 @@ footer{
     align-items: center;
     justify-items: center;
 }
-div.scroll{
-    grid-area: scroll;
-    margin: 4px, 4px;
-    padding: 4px;
-    background-color: white;
-    width: 75vw;
-    height: 89.8vh;
-    overflow-x: hidden;
-    overflow-y: 85vh;
-    text-align: justify;
+.main1{
+    display: grid;
+    background: white;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    grid-area: main1;
+}
+.main11{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+            "main011 main010 main0100"
+            "main0011 main0010 main00100";
+}
+.main011{
+    background: green;
+    height: 100%;
+    width: 100%;
+    grid-area: main011;
+}
+.main0011{
+    background: deeppink;
+    height: 100%;
+    width: 100%;
+    grid-area: main0011;
+}
+.main010{
+    background: maroon;
+    height: 100%;
+    width: 100%;
+    grid-area: main010;
+}
+.main0010{
+    background: orange;
+    height: 100%;
+    width: 100%;
+    grid-area: main0010;
+}
+.main0100{
+    background: chocolate;
+    height: 100%;
+    width: 100%;
+    grid-area: main0100;
+}
+.main00100{
+    background: yellow;
+    height: 100%;
+    width: 100%;
+    grid-area: main00100;
+}
+.main22{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+            "main022 main0022"
+            "main0220 main00220"
+            "main02200 main002200";
+}
+.main022{
+    background: aquamarine;
+    height: 100%;
+    width: 100%;
+    grid-area: main022;
+}
+.main0022{
+    background: red;
+    height: 100%;
+    width: 100%;
+    grid-area: main0022;
+}
+.main0220{
+    background: green;
+    height: 100%;
+    width: 100%;
+    grid-area: main0220;
+}
+.main00220{
+    background: mediumpurple;
+    height: 100%;
+    width: 100%;
+    grid-area: main00220;
+}
+.main02200{
+    background: tomato;
+    height: 100%;
+    width: 100%;
+    grid-area: main02200;
+}
+.main002200{
+    background: steelblue;
+    height: 100%;
+    width: 100%;
+}
+.main33{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+            "main033 main0033 main000333"
+            "main0330 main003300 main0003330"
+            "main1033 main10033 main11033";
+}
+.main033{
+    background: navy;
+    height: 100%;
+    width: 100%;
+    grid-area: main033;
+}
+.main0033{
+    background: lightgreen;
+    height: 100%;
+    width: 100%;
+    grid-area: main0033;
+}
+.main000333{
+    background: lightskyblue;
+    height: 100%;
+    width: 100%;
+    grid-area: main000333;
+}
+.main0330{
+    background: deeppink ;
+    height: 100%;
+    width: 100%;
+    grid-area: main0330;
+}
+.main003300{
+    background: steelblue;
+    height: 100%;
+    width: 100%;
+    grid-area: main003300;
+}
+.main0003330{
+    background: lawngreen;
+    height: 100%;
+    width: 100%;
+    grid-area: main0003330;
+}
+.main1033{
+    background: maroon;
+    height: 100%;
+    width: 100%;
+    grid-area: main1033;
+}
+.main10033{
+    background: lightgreen;
+    height: 100%;
+    width: 100%;
+    grid-area: main10033;
+}
+.main11033{
+    background: mediumvioletred;
+    height: 100%;
+    width: 100%;
+    grid-area: main11033;
+}
+
+.main44 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+            "main044 main0044 main000444"
+            "main00440 main004400 main04400"
+            "main00400 main044000 main0044001";
+}
+.main044{
+    background: deeppink;
+    height: 100%;
+    width: 100%;
+    grid-area: main044;
+}
+
+.main0044{
+    background: lawngreen;
+    height: 100%;
+    width: 100%;
+    grid-area: main0044;
+}
+.main000444{
+    background: red;
+    height: 100%;
+    width: 100%;
+    grid-area: main000444;
+}
+.main00440{
+    background: lightgreen;
+    height: 100%;
+    width: 100%;
+    grid-area: main00440;
+}
+.main004400{
+    background: tomato;
+    height: 100%;
+    width: 100%;
+    grid-area: main004400;
+}
+.main04400{
+    background: crimson;
+    height: 100%;
+    width: 100%;
+    grid-area: main04400;
+}
+.main00400{
+    background: olivedrab;
+    height: 100%;
+    width: 100%;
+    grid-area: main00400;
+}
+.main044000{
+    background: yellow;
+    height: 100%;
+    width: 100%;
+    grid-area: main044000;
+}
+.main0044001{
+    background: palevioletred;
+    height: 100%;
+    width: 100%;
+    grid-area: main0044001;
 }
